@@ -1,0 +1,83 @@
+div#content div {
+    height: 200px;
+    margin: 30px;
+}
+
+
+div#content hr {
+    background-color: black;
+    height: 0.5px;
+    
+}
+
+div#content div.left-box {
+    /* background-color: tomato; */
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+div#content div.left-box img {
+    /* background-color: violet; */
+    padding: 2em;
+    position: absolute;
+}
+
+div#content div.left-box div.text {
+    /* background-color: wheat; */
+    margin-left: 23em;
+    height: 100px;
+    width: 500px;
+}
+
+div#content div.left-box div.text p {
+    padding-top: 50px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#content div.left-box div.info p {
+    opacity: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3px;
+    padding-top: 10em;
+    font-style: italic;
+    font-size: 9.5px;
+}
+
+div#content div.right-box {
+    /* background-color: tomato; */
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+div#content div.right-box img {
+    /* background-color: violet; */
+    padding: 2em;
+    margin-left: 55em;
+    position: absolute;
+}
+
+div#content div.right-box div.text {
+    /* background-color: wheat; */
+    margin-left: 23em;
+    height: 100px;
+    width: 500px;
+}
+
+div#content div.right-box div.text p {
+    padding-top: 50px;
+    font-size: 1.5em;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#content div.right-box div.info p {
+    opacity: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 55rem;
+    padding-top: 7em;
+    font-style: italic;
+    font-size: 9.5px;
+}

@@ -1,0 +1,107 @@
+div#content {
+    height: 1100px;
+}
+
+.tabs input[type=radio] {
+    position: absolute;
+    opacity:0;
+}
+.tabs {
+  width: 750px;
+  float: none;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 30px auto;
+}
+.tabs li.bouton{
+  float: left;
+}
+.tabs label {
+    display: block;
+    padding: 5px 10px;
+    border-radius: 1px 1px 0 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    background: rgba(120,120,120,0.2);
+    cursor: pointer;
+    position: relative;
+    top: 1.5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  background: rgba(255,255,255,0.5);
+  top: 0;
+}
+ 
+.tabs input[id^=tab]:checked + label {
+  background: black;
+  color: white;
+  top: 0;
+}
+
+.tabs2 input[id^=tab]:checked + label {
+  background: black;
+  color: #fff;
+  top: 0;
+}
+ 
+.tabs [id^=tab]:checked ~ [id^=tab-content] {
+    display: block;
+}
+
+.tab-content{
+  z-index: 2;
+  display: none;
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  line-height: 140%;
+  padding-top: 10px;
+  background: white;
+  padding: 15px;
+  color: black;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  box-sizing: border-box;
+  -webkit-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+a.info {
+    position: relative;
+    color: blue;
+    text-decoration: none;
+ }
+
+ a.download {
+    position: relative;
+    color: blue;
+    text-decoration: none;
+ }
+
+ a.info span {
+    display: none;
+ }
+ a.info:hover {
+    background: none;
+    z-index: 500;
+    cursor: pointer;
+ }
+ a.info:hover span {
+    display: inline;
+    position: absolute;
+    white-space: nowrap;
+    top: 30px;
+    left: 20px;
+    background: white;
+    color: white;
+    padding: 3px;
+ }
